@@ -1,0 +1,27 @@
+.addproductbody{
+    min-height: 550px;
+    background-color: rgba(250, 235, 215, 0.448);
+    display: flex;
+    justify-content: center;
+}
+.formitem{
+    width: 80%;
+    padding-top: 10px;
+    background-color: coral;
+    margin-top: 50px;
+    border-radius: 50px;
+    margin-bottom: 60px;
+
+}
+
+@media only screen and (min-width: 800px) {
+    .formitem{
+        width: 50%;
+  }
+
+}
+
+form{
+    padding:50px
+
+}

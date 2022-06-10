@@ -1,0 +1,10 @@
+.productsbody{
+    min-height: 550px;
+    background-color: rgba(250, 235, 215, 0.448);
+    display: flex;
+    justify-content: center;
+}
+.tablelist{
+    padding-top: 40px;
+    width: 90%;
+}

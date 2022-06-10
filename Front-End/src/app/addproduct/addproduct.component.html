@@ -1,0 +1,47 @@
+<div class="addproductbody">
+    <div class="formitem">
+            <form (ngSubmit)="newproducts()">
+
+                <div class="form-group text-center">
+                   <h3>Add Products</h3>
+                </div>
+
+
+                <div class="form-group mt-3">
+                    <label class="text-dark">Code</label>
+                    <input type="string" class="form-control" name="code" [(ngModel)]="products.code">
+                </div>
+
+                <div class="form-group mt-3">
+                    <label class="text-dark">Product Name</label>
+                    <input type="string" class="form-control" name="productname"  [(ngModel)]="products.productname">
+                </div>
+
+                <div class="form-group mt-3">
+                    <label class="text-dark">Available</label>
+                    <input type="string" class="form-control" name="available"  [(ngModel)]="products.available">
+                </div>
+
+                <div class="form-group mt-3">
+                    <label class="text-dark">Rating</label>
+                    <input type="string" class="form-control" name="rating"  [(ngModel)]="products.rating">
+                </div>
+
+                <div class="form-group mt-3">
+                    <label class="text-dark">Price</label>
+                    <input type="string" class="form-control" name="price"  [(ngModel)]="products.price">
+                </div>
+
+                <div class="form-group mt-3">
+                    <label class="text-dark">Image Url</label>
+                    <input type="string" class="form-control" name="imageurl"  [(ngModel)]="products.imageurl">
+                </div>
+
+                <div class="form-group mt-5 text-center">
+                    <input type="Submit" value="Submit" class="btn btn-primary btn-block">
+                </div>
+
+
+            </form>
+    </div>
+</div>

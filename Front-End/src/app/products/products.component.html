@@ -1,0 +1,27 @@
+<div class="productsbody">
+    <div class="tablelist">
+        <table class="table table-success table-hover table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Code</th>
+                <th scope="col">Product Name</th>
+                <th scope="col">Available</th>
+                <th scope="col">Rating</th>
+                <th scope="col">Price</th>
+                <th scope="col">Image</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let i of products">
+                <td>{{i.code}}</td>
+                <td>{{i.productname}}</td>
+                <td>{{i.available}}</td>
+                <td>{{i.rating}}</td>
+                <td>{{i.price}}</td>
+                <td><img src="{{i.imageurl}}" alt="" style="width: 45px;"></td>
+              </tr>
+            </tbody>
+          </table>
+
+    </div>
+</div>
